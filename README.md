@@ -1,6 +1,6 @@
-# 🦙📚 LlamaIndex - Chat with the Streamlit docs
+# 🦙📚 LlamaIndex - Chat with the Twilio SMS docs
 
-Build a chatbot powered by LlamaIndex that augments GPT 3.5 with the content of the Streamlit docs (or your own data).
+Build a chatbot powered by LlamaIndex that augments GPT 3.5 with the content of the Twilio SMS docs.
 
 ## Overview of the App
 
