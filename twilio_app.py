@@ -29,7 +29,8 @@ def load_twilio_data():
 
     loader = SimpleWebPageReader()
     documents = loader.load_data(urls=['https://support.twilio.com/hc/en-us/articles/226460288-How-much-does-a-Short-Code-cost-'])
-    service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are an expert on the Streamlit Python library and your job is to answer technical questions. Assume that all questions are related to the Streamlit Python library. Keep your answers technical and based on facts – do not hallucinate features."))
+    service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, 
+                                                              system_prompt="You are an expert on the Twilio SMS and your job is to answer technical questions. Assume that all questions are related to the Twilio SMS. Keep your answers technical and based on facts – do not hallucinate features."))
     index = VectorStoreIndex.from_documents(docs, service_context=service_context)
     return index
 
