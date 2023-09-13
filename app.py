@@ -43,7 +43,7 @@ answer_format = """
                 Include the following keys in your answer: long_code_domestic, long_code_international, short_code, alphanumeric_sender_IDs, toll_free.\
                 For short code, please specify either "supported" or "Not Supported", if "Supported" include provisioning time if available.\
                 For alphanumeric sender IDs, please specify either "Pre-registration" or "Dynamic", if "Pre-registration" include provisioning time if available\
-                Example:
+                Example:  
                 {
                     "long_code_domestic": "Not Supported",
                     "long_code_international": "Supported",
@@ -52,7 +52,7 @@ answer_format = """
                     "toll_free": "Not Supported"
                 }
 
-                Then list Use Case Restrictions for each type of supported phone number or sender ID. \
+                Then list use case restrictions for each type of supported phone number or sender ID. \
          """
 
 @st.cache_resource(show_spinner=True)
