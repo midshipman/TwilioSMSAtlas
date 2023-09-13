@@ -1,0 +1,219 @@
+# Countries Supporting Alphanumeric Sender ID
+
+- Afghanistan: **Yes - Pre-Registration Required**
+- Albania: **Yes**
+- Algeria: **Yes**
+- American Samoa: **Yes**
+- Andorra: **Yes**
+- Angola: **Yes**
+- Anguilla: **Yes**
+- Antigua & Barbuda: **Yes**
+- Argentina: **No**
+- Armenia: **Yes - Pre-Registration Required**
+- Aruba: **Yes**
+- Australia: **Yes - Pre-Registration Required**
+- Austria: **Yes**
+- Azerbaijan: **Yes**
+- Bahamas: **No**
+- Bahrain: **Yes**
+- Bangladesh: **Yes - Pre-Registration Required**
+- Barbados: **Yes**
+- Belarus: **Yes - Pre-Registration Required**
+- Belgium: **No**
+- Belize: **Yes**
+- Benin: **Yes - Pre-Registration Required**
+- Bermuda: **Yes**
+- Bhutan: **Yes**
+- Bolivia: **Yes**
+- Bosnia and Herzegovina: **Yes**
+- Botswana: **Yes**
+- Brazil: **Yes - Pre-Registration Required**
+- Brunei: **Yes**
+- Bulgaria: **Yes**
+- Burkina Faso: **Yes**
+- Burundi: **Yes**
+- Cambodia: **Yes - Pre-Registration Required**
+- Cameroon: **Yes - Pre-Registration Required**
+- Canada: **No**
+- Cape Verde: **Yes**
+- Cayman Islands (UK): **No**
+- Central African Republic: **Yes**
+- Chad: **Yes**
+- Chile: **No**
+- China: **No**
+- Colombia: **No**
+- Comoros: **Yes**
+- Congo (Republic of the Congo): **Yes - Pre-Registration Required**
+- Congo (Democratic Republic of the Congo): **Yes**
+- Cook Islands: **Yes**
+- Costa Rica: **No**
+- Croatia: **Yes**
+- Cuba: **Yes - Pre-Registration Required**
+- Cyprus: **Yes**
+- Czech Republic: **Yes - Pre-Registration Required**
+- Denmark: **Yes**
+- Djibouti: **Yes**
+- Dominica: **Yes**
+- Dominican Republic: **No**
+- Ecuador: **No**
+- Egypt: **Yes - Pre-Registration Required**
+- El Salvador: **No**
+- Equatorial Guinea: **Yes**
+- Estonia: **Yes**
+- Ethiopia: **Yes - Pre-Registration Required**
+- Falkland Islands: **Yes**
+- Faroe Islands: **Yes**
+- Fiji: **Yes**
+- Finland: **Yes**
+- France: **Yes**
+- French Guiana: **No**
+- French Polynesia: **Yes**
+- Gabon: **Yes**
+- Gambia: **Yes**
+- Georgia: **Yes**
+- Germany: **Yes**
+- Ghana: **Yes - Pre-Registration Required**
+- Gibraltar: **Yes**
+- Greece: **Yes**
+- Greenland: **Yes**
+- Grenada: **Yes**
+- Guadeloupe & Martinique: **Yes**
+- Guam: **No**
+- Guatemala: **Yes**
+- Guernsey: **Yes**
+- Guinea: **Yes - Pre-Registration Required**
+- Guinea-Bissau: **Yes - Pre-Registration Required**
+- Guyana: **Yes**
+- Haiti: **Yes**
+- Honduras: **Yes**
+- Hong Kong: **Yes - Pre-Registration Required**
+- Hungary: **No**
+- Iceland: **Yes**
+- India: **No**
+- Indonesia: **Yes - Pre-Registration Required**
+- Iran: **Yes - Pre-Registration Required**
+- Iraq: **Yes**
+- Ireland: **Yes**
+- Isle of Man: **Yes**
+- Israel: **Yes - Pre-Registration Required only for companies based in Israel that plan to send more than 30,000 SMS per month.**
+- Italy: **Yes**
+- Ivory Coast (Côte d'Ivoire): **Yes - Pre-Registration Required**
+- Jamaica: **Yes**
+- Japan: **Yes**
+- Jersey: **Yes**
+- Jordan: **Yes - Pre-Registration Required**
+- Kazakhstan: **Yes - Pre-Registration Required**
+- Kenya: **Yes - Pre-Registration Required**
+- Kosovo: **Yes**
+- Kuwait: **Yes - Pre-Registration Required**
+- Kyrgyzstan: **No**
+- Laos (Lao People's Democratic Republic): **Yes**
+- Latvia: **Yes**
+- Lebanon: **Yes**
+- Lesotho: **Yes**
+- Liberia: **Yes - Pre-Registration Required**
+- Libya: **Yes**
+- Liechtenstein: **Yes**
+- Lithuania: **Yes**
+- Luxembourg: **Yes**
+- Macau (PRC): **Yes**
+- Macedonia: **Yes**
+- Madagascar: **Yes**
+- Malawi: **Yes**
+- Malaysia: **No**
+- Maldives: **Yes**
+- Mali: **Yes**
+- Malta: **Yes**
+- Martinique: **Yes**
+- Mauritania: **Yes**
+- Mauritius: **Yes**
+- Mayotte: **Yes**
+- Mexico: **Yes - Pre-Registration Required**
+- Moldova: **Yes**
+- Monaco: **Yes**
+- Mongolia: **Yes**
+- Montenegro: **Yes**
+- Montserrat: **Yes**
+- Morocco: **Yes - Pre-Registration Required**
+- Mozambique: **Yes**
+- Myanmar: **Yes - Pre-Registration Required**
+- Namibia: **Yes**
+- Nauru: **No**
+- Nepal: **Yes - Pre-Registration Required**
+- Netherlands: **Yes**
+- Netherlands Antilles: **Yes**
+- New Caledonia: **Yes**
+- New Zealand: **No**
+- Nicaragua: **No**
+- Niger: **Yes**
+- Nigeria: **Yes - Pre-Registration Required**
+- Norway: **Yes**
+- Oman: **Yes - Pre-Registration Required**
+- Pakistan: **Yes**
+- Palestine: **Yes**
+- Panama: **No**
+- Papua New Guinea: **Yes**
+- Paraguay: **No**
+- Peru: **No**
+- Philippines: **Yes - Pre-Registration Required**
+- Poland: **Yes**
+- Portugal: **Yes**
+- Puerto Rico: **No**
+- Qatar: **Yes - Pre-Registration Required**
+- Réunion: **Yes**
+- Romania: **Yes - Pre-Registration Optional**
+- Russia: **Yes - Pre-Registration Required**
+- Rwanda: **Yes - Pre-Registration Required**
+- Samoa: **Yes**
+- San Marino: **Yes**
+- Sao Tome and Principe: **Yes**
+- Saudi Arabia: **Yes - Pre-Registration Required for non-Saudi Arabia-based companies**
+- Senegal: **Yes**
+- Serbia: **Yes - Pre-Registration Optional**
+- Seychelles: **Yes**
+- Sierra Leone: **Yes**
+- Singapore: **Yes - Pre-Registration Required**
+- Slovakia: **Yes**
+- Slovenia: **Yes**
+- Solomon Islands: **Yes**
+- Somalia: **Yes**
+- South Africa: **No**
+- South Korea: **No**
+- South Sudan: **Yes - Pre-Registration Required**
+- Spain: **Yes**
+- Sri Lanka: **Yes - Pre-Registration Required**
+- St. Kitts and Nevis: **Yes**
+- St. Lucia: **Yes**
+- Saint Vincent and the Grenadines: **Yes**
+- Sudan: **Yes - Pre-Registration Required**
+- Suriname: **Yes**
+- Swaziland: **Yes - Pre-Registration Required**
+- Sweden: **Yes**
+- Switzerland: **Yes**
+- Syria: **No**
+- Taiwan: **No**
+- Tajikistan: **Yes**
+- Tanzania: **Yes - Pre-Registration Required**
+- Thailand: **Yes - Pre-Registration Required**
+- Timor-Leste (East Timor): **Yes**
+- Togo: **Yes**
+- Tonga: **Yes**
+- Trinidad and Tobago: **Yes**
+- Tunisia: **Yes - Pre-Registration Required only for companies based in Tunisia that plan to send more than 30,000 SMS per month.**
+- Turkey: **Yes - Pre-Registration Required**
+- Turkmenistan: **Yes**
+- Turks and Caicos Islands: **Yes**
+- Uganda: **Yes - Pre-Registration Required**
+- Ukraine: **Yes**
+- United Arab Emirates: **Yes - Pre-Registration Required**
+- United Kingdom: **Yes**
+- United States: **No**
+- Uruguay: **No**
+- Uzbekistan: **Yes**
+- Vanuatu: **Yes**
+- Venezuela: **Yes - Pre-Registration Required**
+- Vietnam: **Yes - Pre-Registration Required**
+- Virgin Islands (British Virgin Islands): **Yes**
+- Yemen: **Yes**
+- Zambia: **Yes - Pre-Registration Required**
+- Zimbabwe: **Yes**
