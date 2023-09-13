@@ -1,4 +1,4 @@
-# 🦙📚 LlamaIndex - Chat with the Twilio SMS docs
+# 🦙📚 Twilio SMS Atlas - Chat with the Twilio SMS docs
 
 Build a chatbot powered by LlamaIndex that augments GPT 3.5 with the content of the Twilio SMS docs.
 
