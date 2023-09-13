@@ -15,7 +15,7 @@ import sys
 st.set_page_config(page_title="Twilio SMS Atlas", page_icon="🦉", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
 st.title("Twilio SMS Atlas 🦉 ")
-st.info("Find your SMS senders with the Twilio SMS docs, powered by LlamaIndex 💬🦙")
+st.info("Find your SMS senders with the Twilio SMS Atlas, powered by LlamaIndex 💬🦙")
        
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
