@@ -3,38 +3,40 @@ from llama_index import VectorStoreIndex, ServiceContext, Document
 from llama_index.llms import OpenAI
 import openai
 from llama_index import SimpleDirectoryReader
+from pathlib import Path
 from llama_index import download_loader
 
 st.set_page_config(page_title="Chat with the Twilio SMS docs, powered by LlamaIndex", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-st.title("Chat with the Streamlit docs, powered by LlamaIndex 💬🦙")
-st.info("Check out the full tutorial to build this app in our [blog post](https://blog.streamlit.io/build-a-chatbot-with-custom-data-sources-powered-by-llamaindex/)", icon="📃")
+st.title("Chat with the Twilio SMS docs, powered by LlamaIndex 💬🦙")
+#st.info("Check out the full tutorial to build this app in our [blog post](tbd)", icon="📃")
          
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "Ask me a question about Streamlit's open-source Python library!"}
+        {"role": "assistant", "content": "Ask me a question about Twilio SMS! Topics: Short code price"}
     ]
 
-@st.cache_resource(show_spinner=False)
-def load_data():
-    with st.spinner(text="Loading and indexing the Streamlit docs – hang tight! This should take 1-2 minutes."):
-        reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
+context = """
+                You are an expert on the Twilio sales expert and your job is to answer questions about SMS guidelines. 
+                Assume that all questions are related to the Twilio SMS documents. 
+                Keep your answers technical and based on facts, do not hallucinate features.
+                Long code, short code, toll free, and alphanumeric sender IDs are 4 types of senders for SMS."""
+        
+
+@st.cache_resource(show_spinner=False) 
+def load_twilio_data():
+    with st.spinner(text="Loading and indexing the Twilio docs – hang tight! This should take 1-2 minutes."):
+        reader = SimpleDirectoryReader(input_dir="./twilio", recursive=True)
         docs = reader.load_data()
-        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, system_prompt="You are an expert on the Streamlit Python library and your job is to answer technical questions. Assume that all questions are related to the Streamlit Python library. Keep your answers technical and based on facts – do not hallucinate features."))
+        service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-4", temperature=0, system_prompt= context))
         index = VectorStoreIndex.from_documents(docs, service_context=service_context)
         return index
-    
-def load_twilio_data():
-    SimpleWebPageReader = download_loader("SimpleWebPageReader")
-
-    loader = SimpleWebPageReader()
-    documents = loader.load_data(urls=['https://support.twilio.com/hc/en-us/articles/226460288-How-much-does-a-Short-Code-cost-'])
-    service_context = ServiceContext.from_defaults(llm=OpenAI(model="gpt-3.5-turbo", temperature=0.5, 
-                                                              system_prompt="You are an expert on the Twilio SMS and your job is to answer technical questions. Assume that all questions are related to the Twilio SMS. Keep your answers technical and based on facts – do not hallucinate features."))
-    index = VectorStoreIndex.from_documents(documents, service_context=service_context)
-    return index
 
 index = load_twilio_data()
+
+st.session_state.messages = [
+        {"role": "assistant", "content": "added twilio sms documents " }
+    ]
 # chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True, system_prompt="You are an expert on the Streamlit Python library and your job is to answer technical questions. Assume that all questions are related to the Streamlit Python library. Keep your answers technical and based on facts – do not hallucinate features.")
 chat_engine = index.as_chat_engine(chat_mode="condense_question", verbose=True)
 
