@@ -19,7 +19,7 @@ st.info("Find your SMS senders with the Twilio SMS docs, powered by LlamaIndex ð
        
 if "messages" not in st.session_state.keys(): # Initialize the chat messages history
     st.session_state.messages = [
-        {"role": "assistant", "content": "In which country do you need  Twilio SMS Senders? I support Japan, Italy, Australia, Germany, UK, SINGAPORE,Ireland"}
+        {"role": "assistant", "content": "In which country do you need  Twilio SMS Senders? I support Japan, Italy, Australia, Germany, UK, Singapore,Ireland"}
     ]
 
 context = """
@@ -28,7 +28,7 @@ context = """
                 Keep your answers presise and based on facts, do not hallucinate features. \
                 Long code, short code, toll free, and alphanumeric(sender IDs) are 4 types of SMS senders with Twilio, only use these 4 in the answer. \
                 Alphanumeric(sender IDs) needs either Pre-registration or Dynamic(meaming you can use any sender ID without pre-registration).))\
-                Current supported countries are Japan, Italy, Australia, Germany, UK, SINGAPORE, Ireland\
+                Current supported countries are Japan, Italy, Australia, Germany, UK, Singapore, Ireland\
                 Say no if ask for  countires not in the list.
                 
             """
@@ -36,7 +36,7 @@ context = """
 answer_format = """
                 
                 Answer format: \
-                Please provide the information in JSON format. The keys should represent the type of phone number or sender ID, \
+                First please provide the information in JSON format. The keys should represent the type of phone number or sender ID, \
                 and the values should indicate whether Twilio supports it or not. \
                 
                 
@@ -51,6 +51,8 @@ answer_format = """
                     "alphanumeric_sender_IDs": "Dynamic",
                     "toll_free": "Not Supported"
                 }
+
+                Then list Use Case Restrictions for each type of supported phone number or sender ID. \
          """
 
 @st.cache_resource(show_spinner=True)
@@ -77,7 +79,7 @@ for message in st.session_state.messages: # Display the prior chat messages
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
+        with st.spinner("ðŸ¦‰ is Thinking..."):
             prompt = answer_format + "\n\n" + prompt + "\n\n"
             print(prompt)
             #response = chat_engine.chat(prompt)
