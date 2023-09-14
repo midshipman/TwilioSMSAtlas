@@ -52,4 +52,4 @@ You can get your own OpenAI API key by following the following instructions:
 
 ## Try out the app
 
-Once the app is loaded, enter your question about the Streamlit library and wait for a response.
+Once the app is loaded, enter your question about Twilio SMS senders for supported country.
